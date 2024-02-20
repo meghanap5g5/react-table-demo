@@ -28,6 +28,7 @@ function CustomersInfo( {cust_data} ) {
     const {getTableProps, getTableBodyProps, headerGroups, page, prepareRow, nextPage, previousPage, canNextPage, canPreviousPage, state:{pageIndex}, pageCount, gotoPage, } = useTable({ columns, data}, useSortBy, usePagination);
     return(
         <div className='container'>
+            <h2>Employee Info</h2>
             <table {...getTableProps()}>
                 <thead>
                     {headerGroups.map((headerGroup) => (

@@ -44,14 +44,17 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  max-height: 600px;
-  overflow-y: scroll;
+  max-height: 700px;
+  /* overflow-y: scroll; */
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+h2 {
+  color: white;  
+}
 table {
-  width: 800px;
-  height: 800px;
+  width: 900px;
+  height: 600px;
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -93,7 +96,8 @@ tbody td:hover:before {
 }
 
 .btn {
-  color: #55608f;
+  background-color:rgba(60, 209, 214, 0.2);
+  color: white;
 }
 
 @keyframes App-logo-spin {
